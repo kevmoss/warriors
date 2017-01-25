@@ -1,0 +1,134 @@
+body {
+    padding: 0%;
+}
+
+.panel {
+    padding: 1%;
+}
+
+nav {
+    margin-bottom: 10px;
+}
+
+.no-grow {
+    flex-grow: 0;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.invalid {
+    color: red;
+}
+
+.valid {
+    color: grey;
+}
+
+button[disabled] {
+    background-color: grey !important;
+}
+
+button[disabled]:hover {
+    cursor: default;
+}
+
+.image .small-img {
+    width: 50px;
+    height: 50px;
+}
+
+a:hover {
+    color: grey !important;
+    text-decoration: none !important;
+}
+
+. {
+    padding: 0px;
+}
+
+.profileCard li {
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.profileCard {
+    background: #fff;
+    border-radius: 6px;
+}
+
+.profileCard h4 {
+    font-size: 23px;
+    color: #000;
+}
+
+.smallp {
+    font-size: 10px;
+    color: grey;
+}
+
+.boldp {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card-header {
+    height: 85px;
+}
+
+.user-data {
+    display: flex;
+    justify-content: space-around;
+}
+
+#navbar-search {
+    border-radius: 20px;
+}
+
+#navbar-img {
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.profile-name {
+    display: flex;
+}
+
+.profile-name .left {
+    margin: -15px 7px 3px 11px;
+    padding: 0px;
+}
+
+.profile-name .left img {
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
+}
+
+.thin-pad {
+    padding: 0px;
+}
+
+.no-pad {
+    padding: 0px;
+}
+
+.photo {
+    max-height: 300px;
+    overflow: hidden;
+}
+
+.x-small {
+    font-size: 11px;
+}
+
+.handle-card {
+    box-shadow: none;
+}
+
+.handle-card-content {
+    padding: 5px;
+    padding-bottom: 20px;
+}
